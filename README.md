@@ -76,7 +76,7 @@ With only **two tokens** processed through the transformer, the memory and compu
 ---
 
 ## 📜 License
-MIT License(under process)
+MIT License
 
 ---
 
