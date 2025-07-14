@@ -18,10 +18,12 @@ class MultimodalModel(nn.Module):
         """
         super(MultimodalModel, self).__init__()
 
+        
         # Image encoder: CNN (ResNet-50 backbone)
         self.image_encoder = resnet50(pretrained=True)
         self.image_encoder.fc = nn.Identity()  # Remove classification head to get raw features
-
+        self.image_fc = nn.Linear(2048, hidden_dim)
+        
         # Text encoder: Transformer (e.g., BERT)
         self.text_encoder = AutoModel.from_pretrained(text_model_name)
         self.text_tokenizer = AutoTokenizer.from_pretrained(text_model_name)
