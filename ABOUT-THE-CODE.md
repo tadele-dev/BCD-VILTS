@@ -56,7 +56,7 @@ ViLT (text-image token-level fusion with Transformers)
 LXMERT / VisualBERT (vision-language fusion)
 
 
-But it is not identical to any of these. which lacks:
+But it is not identical to any of these. which is:
 
 Image patch tokenization (like ViT)
 
@@ -75,4 +75,4 @@ Contrastive loss (like CLIP)
 
 🚫 It's not groundbreaking in terms of algorithm, but the way it combines components is novel and would be suitable for prototyping a research idea.
 
-💡 This design is ready for a publication and patent, especially if paired with a unique dataset, loss function, or training strategy.
+💡 This design is ready for a publication , after paired with a unique dataset, loss function, or training strategy.
