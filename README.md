@@ -3,11 +3,11 @@
 
 A next-generation multimodal AI model for early and accurate breast cancer detection by integrating **medical imaging** and **clinical text reports** using a hybrid **CNN + Transformer** architecture.
 
-## 🔍 Disclaimer
+📘 Project Definition
 
-This project, **BCD-VILTS**, is an independent implementation inspired by the ViLT architecture.  
-It is not affiliated with, endorsed by, or derived from the official ViLT authors.  
-Any similarity in naming is purely to acknowledge the inspiration in multimodal fusion techniques.
+BCD-VILTS (Breast Cancer Detection using Vision-and-Language Transformer System) is a novel, independently developed deep learning model that integrates medical imaging and clinical text data for improved breast cancer detection. While the architecture draws conceptual inspiration from the ViLT (Vision-and-Language Transformer) model—particularly in its approach to multimodal fusion—it is a standalone implementation designed specifically for the healthcare domain.
+
+> This project, BCD-VILTS, is an independent implementation inspired by the ViLT architecture. It is not affiliated with, endorsed by, or derived from the official ViLT authors. Any similarity in naming is purely to acknowledge the inspiration in multimodal fusion techniques, and the model has been developed with original code and domain-specific objectives.
 
 # Multimodal Transformer with Image Anchor
 
