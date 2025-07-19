@@ -3,7 +3,11 @@
 
 A next-generation multimodal AI model for early and accurate breast cancer detection by integrating **medical imaging** and **clinical text reports** using a hybrid **CNN + Transformer** architecture.
 
+## 🔍 Disclaimer
 
+This project, **BCD-VILTS**, is an independent implementation inspired by the ViLT architecture.  
+It is not affiliated with, endorsed by, or derived from the official ViLT authors.  
+Any similarity in naming is purely to acknowledge the inspiration in multimodal fusion techniques.
 
 # Multimodal Transformer with Image Anchor
 
