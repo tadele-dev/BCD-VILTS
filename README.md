@@ -1,3 +1,10 @@
+
+# 🧠 BCD-VILTS: Breast Cancer Detection using Vision-and-Language Transformer System
+
+A next-generation multimodal AI model for early and accurate breast cancer detection by integrating **medical imaging** and **clinical text reports** using a hybrid **CNN + Transformer** architecture.
+
+
+
 # Multimodal Transformer with Image Anchor
 
 A novel multimodal architecture designed for clinical decision support that fuses visual and textual data using a simplified Transformer model. The image token serves as the anchor for classification after being contextually enriched by the clinical text. This model is efficient, modular, and ideal for real-world deployment.
