@@ -140,6 +140,98 @@ This FAQ addresses common and advanced questions about **BCD-VILTS**, a multimod
 
 ---
 
+# 📘 Frequently Asked Questions (FAQ) — BCD-VILTS Model
+
+This FAQ provides detailed comparisons between BCD-VILTS (Breast Cancer Detection using Vision-Language Transformer with Semantic Fusion) and several prominent models in medical AI research.
+
+---
+
+### ❓ Q1: How does BCD-VILTS compare to BioViL (Visual-Language Pretraining for Biomedicine)?
+**A:**  
+BioViL aligns radiology images with reports using contrastive learning.  
+**BCD-VILTS**, however, is designed for **direct classification tasks** using a **joint transformer-based fusion** method between pathology images and clinical text. It is more suited for breast cancer diagnosis.
+
+---
+
+### ❓ Q2: How is BCD-VILTS different from GatorTron or ClinicalBERT-based models?
+**A:**  
+GatorTron and ClinicalBERT are **text-only models** trained on large-scale EHRs.  
+**BCD-VILTS** extends their capabilities by combining image and text inputs for richer decision-making in medical image diagnosis.
+
+---
+
+### ❓ Q3: How does BCD-VILTS compare to MedCLIP?
+**A:**  
+MedCLIP focuses on contrastive pretraining for retrieval tasks.  
+**BCD-VILTS** is optimized for **multimodal classification**, offering deeper fusion for accurate predictions in breast cancer detection.
+
+---
+
+### ❓ Q4: How does BCD-VILTS differ from Flamingo-Med or PaLM-Med?
+**A:**  
+Flamingo-Med and PaLM-Med are massive multimodal LLMs aimed at reasoning and Q&A.  
+**BCD-VILTS** is lightweight, specialized for **clinical diagnosis**, and more practical for real-world deployment in hospitals.
+
+---
+
+### ❓ Q5: How does BCD-VILTS compare to LLaVA-Med?
+**A:**  
+LLaVA-Med is a chat-oriented multimodal LLM used for Q&A on medical images.  
+**BCD-VILTS** focuses on **end-to-end classification** using **cross-modal fusion**, not conversational tasks.
+
+---
+
+### ❓ Q6: How is your fusion method different from Co-Attention used in VQA-Med?
+**A:**  
+VQA-Med models use co-attention for answering medical questions.  
+**BCD-VILTS** uses a **transformer-based fusion** where both modalities (image and text) contribute equally to the final decision, without needing explicit questions.
+
+---
+
+### ❓ Q7: How does BCD-VILTS compare to UNet or DenseNet used in pathology?
+**A:**  
+UNet/DenseNet are image-only networks.  
+**BCD-VILTS** augments vision with clinical text data, enhancing detection where images alone may be ambiguous or insufficient.
+
+---
+
+### ❓ Q8: How does BCD-VILTS compare to ViT-based pathology models?
+**A:**  
+Vision Transformers (ViTs) process whole-slide images but lack multimodal reasoning.  
+**BCD-VILTS** adds cross-modal interaction using **text + image**, improving interpretability and decision context.
+
+---
+
+### ❓ Q9: How does BCD-VILTS compare with CheXNet?
+**A:**  
+CheXNet is limited to chest X-ray image classification.  
+**BCD-VILTS** supports **histopathology image + text** input and is built specifically for **breast cancer detection**.
+
+---
+
+### ❓ Q10: Compared to GPT-style multimodal models (e.g., Med-Flamingo), what’s BCD-VILTS’s main strength?
+**A:**  
+GPT-style models are generalists, often used for generation and require high resources.  
+**BCD-VILTS** is task-specific, compact, and interpretable — making it ideal for **clinical deployment**.
+
+---
+
+### 📊 Comparison Summary Table
+
+| Model         | Task Type      | Modalities      | Fusion Strategy       | Target Domain      | BCD-VILTS Advantage         |
+|---------------|----------------|------------------|------------------------|---------------------|------------------------------|
+| **BioViL**        | Retrieval       | Image + Text     | Contrastive            | Radiology           | Joint diagnosis fusion       |
+| **GatorTron**     | NLP only        | Text             | N/A                    | Clinical Notes      | Multimodal integration       |
+| **MedCLIP**       | Retrieval       | Image + Text     | Contrastive            | Chest X-ray         | Stronger for classification  |
+| **Flamingo-Med**  | Q&A/Reasoning   | Vision + LLM     | Adapter + LLM          | General Med         | Lightweight, specific        |
+| **CheXNet**       | Classification  | Image only       | CNN                    | Chest X-ray         | Text-aware prediction        |
+| **ViT Pathology** | Classification  | Image only       | ViT                    | Histopathology      | Interpretable multimodal     |
+
+---
+
+
+
+
 ## 📌 Need More?
 
 If you have additional questions, open an [Issue](https://github.com/your-username/your-repo/issues) or email the author at [tadele_tatek@yahoo.com](mailto:tadele_tatek@yahoo.com).
