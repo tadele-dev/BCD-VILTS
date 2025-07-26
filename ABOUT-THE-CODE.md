@@ -11,6 +11,10 @@ What’s new: The model concatenates image and text embeddings as a 2-token sequ
 
 Novelty: Most multimodal models use cross-attention layers, early fusion, or late fusion—this code uses symmetric Transformer layers, which is unusual and could be considered experimental.
 
+Novelty Statement :
+
+> While traditional multimodal models use asymmetric cross-attention layers (e.g., text attends to image or vice versa), the model (BCD-VILTS) uses a symmetric Transformer fusion where both image and text embeddings co-attend via shared self-attention. This is an uncommon and experimentally promising approach, particularly for tasks with compact multimodal representations like breast cancer detection.
+
 
 
 ---
