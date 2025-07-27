@@ -102,3 +102,5 @@ MIT License. Free to use with attribution.
 
 
 ## 📚 Citation
+
+@misc{bcdvilts2025, title={BCD-VILTS: Vision-and-Language Transformer for Breast Cancer Detection}, author={Tadele Tatek Gebrewold}, year={2025}, published={not yet published  at arXiv},
