@@ -39,7 +39,7 @@ BCD-VILTS is a custom multimodal AI model for breast cancer detection that fuses
 | Dataset        | Accuracy | F1-Score | AUC    |
 |----------------|----------|----------|--------|
 | Custom Dataset | 0.91     | 0.89     | 0.94   |
-| (Add details)  | (TBD)    | (TBD)    | (TBD)  |
+
 
 ---
 
@@ -62,9 +62,9 @@ BCD-VILTS is a custom multimodal AI model for breast cancer detection that fuses
 - Text: Clinical note (tokenized using BERT tokenizer)
 
 **Output**:
-- Binary label: `0 = No cancer`, `1 = Cancer detected`
+- Binary label: `0 = No cancer`, `1 = Cancer detected` or benign vs malignant and no cancer
 - Optional: Attention heatmaps
-
+with text
 ---
 
 ## 📦 Export and Deployment
@@ -81,5 +81,24 @@ BCD-VILTS is a custom multimodal AI model for breast cancer detection that fuses
 - Submit to **MICCAI**, **NeurIPS**, or **Nature Scientific Reports**
 
 ---
+
+---
+
+## 🔐 License
+
+MIT License. Free to use with attribution.
+
+---
+
+## 🧾 Acknowledgments
+
+- ViLT (Kim et al., 2021)
+- CLIP (Radford et al., 2021)
+- BioGPT (Microsoft, 2023)
+- GatorTron (UF Health, 2022)
+- MedCLIP (SJTU/Stanford, 2023)
+
+---
+
 
 ## 📚 Citation
