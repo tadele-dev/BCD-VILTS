@@ -16,7 +16,7 @@ class BCDVILTSModel(nn.Module):
             text_model_name (str): Hugging Face transformer model name for text encoding.
             hidden_dim (int): Hidden dimension size for the fused representation.
         """
-        super(MultimodalModel, self).__init__()
+        super(BCDVILTSModel, self).__init__()
 
         
         # Image encoder: CNN (ResNet-50 backbone)
@@ -82,7 +82,7 @@ class BCDVILTSModel(nn.Module):
 
 if __name__ == "__main__":
     # Initialize the model
-    model = MultimodalModel(num_classes=2)
+    model = BCDVILTSModelModel(num_classes=2)
     model.eval()  # Switch to evaluation mode
 
     # Sample input data
