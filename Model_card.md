@@ -32,14 +32,6 @@ BCD-VILTS is a custom multimodal AI model for breast cancer detection that fuses
 - `Fusion Module`: Multi-head cross-attention Transformer (PyTorch `nn.Transformer`)
 - `Classifier`: Fully-connected layer on top of fused image token
 
----
-
-## 📊 Benchmark Results
-
-| Dataset        | Accuracy | F1-Score | AUC    |
-|----------------|----------|----------|--------|
-| Custom Dataset | 0.91     | 0.89     | 0.94   |
-
 
 ---
 
