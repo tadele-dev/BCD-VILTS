@@ -5,7 +5,7 @@ from torchvision.models import resnet50
 from transformers import AutoModel, AutoTokenizer
 
 
-class MultimodalModel(nn.Module):
+class BCDVILTSModel(nn.Module):
     def __init__(self, num_classes=2, text_model_name="bert-base-uncased", hidden_dim=512):
         """
         Initialize the multimodal model with CNN for image processing and a Transformer-based
