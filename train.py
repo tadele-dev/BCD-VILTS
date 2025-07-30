@@ -99,4 +99,4 @@ for epoch in range(NUM_EPOCHS):
 # SAVEING OUR MODEL
 # --------------------------
 torch.save(model.state_dict(), My_MODEL_SAVE_PATH)
-print(f"Model saved to {MY_MODEL_SAVE_PATH}")
+print(f"Model saved to {My_MODEL_SAVE_PATH}")
