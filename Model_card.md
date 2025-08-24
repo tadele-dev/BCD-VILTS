@@ -74,11 +74,6 @@ with text
 
 ---
 
----
-
-## 🔐 License
-
-MIT License. Free to use with attribution.
 
 ---
 
