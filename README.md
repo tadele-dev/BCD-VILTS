@@ -87,8 +87,10 @@ With only **two tokens** processed through the transformer, the memory and compu
 ---
 
 ## 📜 License
+Apache License 2.0
+This project is licensed under the 
 
-This project is licensed under the [MIT License](./LICENSE) © 2025 Tadele Tatek Gebrewold.
+2025 Tadele Tatek Gebrewold.
 ---
 
 ## ✍️ Author
