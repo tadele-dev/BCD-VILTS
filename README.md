@@ -87,10 +87,17 @@ With only **two tokens** processed through the transformer, the memory and compu
 ---
 
 ## 📜 License
-This project is licensed under the
-Apache License 2.0
+## License
 
-2025 Tadele Tatek Gebrewold.
+BCD-VILTS is dual-licensed:
+
+1. **Open Source (AGPL v3):**
+   - Free to use, modify, and distribute for academic, research, or non-commercial purposes.
+   - Any modifications or derivative works must also be licensed under AGPL v3.
+
+2. **Commercial License:**
+   - For organizations that wish to use BCD-VILTS without AGPL obligations, a commercial license is required.
+   - Contact Tadele Tatek Gebrewold at tadele_tatek@yahoo.com for details and licensing terms.
 ---
 
 ## ✍️ Author
