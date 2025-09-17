@@ -1,7 +1,22 @@
-# Copyright 2025 Tadele Tatek Gebrewold
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy at http://www.apache.org/licenses/LICENSE-2.0
+# BCD-VILTS: Breast Cancer Detection using Vision-Language Transformer
+# Modules include: ResNet-50 image encoder, BERT text encoder, Fusion Transformer block
+# Copyright (C) 2025 Tadele Tatek Gebrewold
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published
+# by the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+# For commercial licensing, collaboration, or deployment inquiries,
+# please contact Tadele Tatek Gebrewold at: tadele_tatek@yahoo.com
 
 import torch
 import torch.nn as nn
