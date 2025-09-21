@@ -1,13 +1,12 @@
-BCD-VILTS: Breast Cancer Detection using Vision-Language Transformer (ResNet-50 + BERT + Fusion Block)
-Copyright (C) 2025 Tadele Tatek Gebrewold
-Licensed under the GNU Affero General Public License v3.0 (AGPL-3.0)
-in the futures For commercial licensing inquiries, contact: tadele_tatek@yahoo.com
-
-
 ## Notice
 
-It is strictly forbidden to use
-BCD-VILTS for clinical deployment or patient-facing
-applications without obtaining proper 
-regulatory approval (e.g., FDA, CE, or other applicable authorities).  
-This model is intended **only for research and educational purposes** until such approvals are secured.
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+Use of BCD-VILTS is subject to the following additional notice:
+
+- It is **strictly forbidden** to use BCD-VILTS for clinical deployment, diagnostic purposes, or any patient-facing application **without obtaining prior regulatory approval** (e.g., FDA, CE marking, or other applicable authorities).
+- Until such approvals are obtained, this software is provided **for research and educational purposes only**.
+- Any deployment or use in violation of applicable regulations is **unauthorized and at the user’s own legal and ethical risk**.
+- If you have trained the model with your own data **and you have obtained regulatory approval**, we grant you the license to work with BCD-VILTS under the terms of AGPL-3.0.
+- For further understanding, please refer to **ethics and social impact Chapter Seven on my Roadmap Book**.
+- **100% of the authority for deployment lies with the regulatory body**, and compliance with their requirements is mandatory.
