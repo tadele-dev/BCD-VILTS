@@ -1,0 +1,54 @@
+BCD-VILTS Multimodal Cancer Detection Model
+Commercial License Agreement
+Copyright (c) 2025 Tadele Tatek Gebrewold
+Email: tadele_tatek@yahoo.com
+All Rights Reserved.
+
+1. DEFINITIONS
+   “Software” refers to the BCD-VILTS Multimodal Cancer Detection Model and all related code, documentation, and assets created by Tadele Tatek Gebrewold.
+
+   “Licensor” means Tadele Tatek Gebrewold.
+   “Licensee” means the individual or organization entering into this agreement.
+
+2. LICENSE OPTIONS
+   The Software is dual-licensed:
+   (a) under the GNU Affero General Public License v3.0 (AGPL-3.0) for open-source, academic, and non-commercial use; or
+   (b) under this Commercial License Agreement for commercial, clinical, or governmental use **within the Licensee’s country**, subject to payment and acceptance of this Agreement.
+
+3. GRANT OF LICENSE
+   The Licensor grants the Licensee a **non-exclusive, non-transferable license within the Licensee’s country** to:
+   - Use and deploy the Software for internal or public commercial purposes.
+   - Modify, integrate, and adapt the Software within proprietary systems.
+   - Keep derivative works private and not release source code publicly.
+
+4. RESTRICTIONS
+   The Licensee may **NOT**:
+   - Redistribute, resell, or sublicense the Software outside the Licensee’s country without written permission.
+   - Remove copyright or attribution notices.
+   - Claim ownership of the underlying intellectual property.
+
+5. FEES AND TERM
+   Commercial use requires payment of applicable license fees as agreed in writing between the Licensor and the Licensee. The license is effective upon full payment and remains valid for the agreed term unless terminated.
+
+6. SUPPORT AND UPDATES
+   Optional maintenance, support, or updates may be provided under a separate support agreement.
+
+7. WARRANTY DISCLAIMER
+   The Software is provided “as is,” without warranties or guarantees of any kind.
+
+8. LIMITATION OF LIABILITY
+   In no event shall the Licensor be liable for any damages, losses, or claims arising from use of the Software, including indirect or consequential damages.
+
+9. TERMINATION
+   This license terminates automatically if the Licensee breaches its terms. Upon termination, the Licensee must cease all use of the Software and destroy all copies.
+
+10. GOVERNING LAW AND DISPUTE RESOLUTION
+    This Agreement shall be governed by the laws of the Licensee’s country. Any dispute arising out of or relating to this Agreement shall be resolved by **binding arbitration** under the International Chamber of Commerce (ICC) Arbitration Rules. The place of arbitration shall be mutually agreed upon by the Licensor and Licensee.
+
+11. CONTACT
+    For commercial licensing inquiries:
+    Tadele Tatek Gebrewold
+    Email: tadele_tatek@yahoo.com
+    Addis Ababa, Ethiopia
+
+End of License Agreement.
